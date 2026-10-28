@@ -8,8 +8,17 @@ int main(){
 
     while(1) {
         int jdp;
-        printf("\Chose one 1 for Rock, 2 for Paper and 3 for Scissors or 0 to quit: ");
-        scanf("%d", &jdp);
+        printf("\nChoose 1 for Rock, 2 for Paper, 3 for Scissors or 0 to quit: ");
+        int lido = scanf("%d", &jdp);
+        if (lido == EOF) {
+            break;
+        }
+        if (lido != 1) {
+            int ch;
+            while ((ch = getchar()) != '\n' && ch != EOF);
+            printf("Select a valid number!\n");
+            continue;
+        }
 
        
         if (jdp == 0) {
@@ -18,6 +27,11 @@ int main(){
         }
 
         
+        if (jdp < 1 || jdp > 3) {
+            printf("Select a valid number!\n");
+            continue;
+        }
+
         int jdc = (rand() % 3)+1;
 
         if (jdp == jdc){
@@ -33,7 +47,7 @@ int main(){
             printf("Scissors beats paper, so you WIN!\n");
         }
         else if (jdp == 3 && jdc == 1){
-            printf("Rock beats scissors, so you LOSE\n!");
+            printf("Rock beats scissors, so you LOSE!\n");
         }
         else if(jdp == 1 && jdc == 2){
             printf("Paper beats rock, so you LOSE!\n");
@@ -41,9 +55,6 @@ int main(){
         else if(jdp == 2 && jdc == 3){
             printf("Scissors beats paper, so you LOSE!\n");
         }
-		else if(jdp < 0 || jdp >= 4){
-        	printf("Select a valid number!\n");
-		}
          printf("\n--------------------------------");
        
     
