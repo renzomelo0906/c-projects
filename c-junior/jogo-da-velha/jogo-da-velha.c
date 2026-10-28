@@ -18,20 +18,22 @@ int main() {
         printf("  %c | %c | %c  \n",  tabuleiro[6], tabuleiro[7], tabuleiro[8]);
        
       
-		do {
-            printf("\nPlease, select: O or X: ");
-		    scanf(" %c", &selectl);
-
-            if (selectl != 'X' && selectl != 'x' && selectl != 'O' && selectl != 'o') {
-                printf("Wrong letter! Try again.\n");
-            }
-        } while (selectl != 'X' && selectl != 'x' && selectl != 'O' && selectl != 'o');
+        selectl = (jogadas % 2 == 0) ? 'X' : 'O';
+        printf("\nPlayer [%c], it's your turn!\n", selectl);
 		
        
         int posicao_valida = 0;
         do {
 		    printf("\nSelect 1, 2, 3, 4, 5, 6, 7, 8 or 9: ");
-            scanf("%d", &selectn);
+            int lido = scanf("%d", &selectn);
+            if (lido == EOF) {
+                return 0;
+            }
+            if (lido != 1) {
+                int ch;
+                while ((ch = getchar()) != '\n' && ch != EOF);
+                selectn = 0;
+            }
 		
 		    if (selectn >= 1 && selectn <= 9) {
                 
