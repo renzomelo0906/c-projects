@@ -103,21 +103,3 @@ printf("[1] Adicionar contato [2] Listar contatos [3] Sair:  ");
 	    }
     }
 }
-
-
-
-/**Estrutura sugerida (você decide os detalhes)
-Um menu: [1] Adicionar contato [2] Listar contatos [3] Sair
-Usa a struct Contattoo que te passei (nome, telefone, email)
-Um array de structs guarda os contatos enquan o programa roda
-Ao adicionar, você escreve no arquivo também (não só na memória)
-Ao abrir o programa (antes do menu aparecer), você lê o arquivo e preenche o array com o que já existia/
-
-/*Programa pergunta nome, telefone, e-mail
-Salva num arquivo .txt (ou você escolhe binário, se preferir)
-Fecha o programa
-Abre de novo → os contatos que você salvou antes aparecem automaticamente, sem precisar digitar tudo de novo
-*/
-
-/* printf("Digite a idade: ");
-    scanf("%d", &p1.idade);*/
