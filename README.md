@@ -7,7 +7,7 @@ C projects organized by difficulty level, from junior to senior.
 ```
 c-projects/
 ├── c-junior/   → junior-level projects
-├── c-pleno/    → mid-level projects (coming soon)
+├── c-pleno/    → mid-level projects (in progress)
 └── c-senior/   → advanced projects (coming soon)
 ```
 
