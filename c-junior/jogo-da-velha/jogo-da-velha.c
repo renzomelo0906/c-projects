@@ -64,14 +64,14 @@ int main() {
             printf("\n _%c_|_%c_|_%c_ \n", tabuleiro[0], tabuleiro[1], tabuleiro[2]);
             printf(" _%c_|_%c_|_%c_ \n", tabuleiro[3], tabuleiro[4], tabuleiro[5]);
             printf("  %c | %c | %c  \n",  tabuleiro[6], tabuleiro[7], tabuleiro[8]);
-            printf("\nPARABENS! O jogador [%c] ganhou o jogo!\n\n", selectl);
+            printf("\nCONGRATULATIONS! Player [%c] wins!\n\n", selectl);
         } else {
-            printf("\n--- Next Round ---\n\n");
+            printf("\n--- Next turn ---\n\n");
         }
     }
 
     if (jogadas == 9 && ganhou == 0) {
-        printf("\nOpss! We have a draw.\n\n");
+        printf("\nIt's a draw!\n\n");
     }
     return 0;
 }
