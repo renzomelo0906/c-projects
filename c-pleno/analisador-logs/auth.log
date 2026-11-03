@@ -1,0 +1,47 @@
+Nov  2 03:10:52 server sshd[1202]: Failed password for invalid user admin from 45.95.147.12 port 34114 ssh2
+Nov  2 03:12:09 server sshd[1203]: Failed password for invalid user guest from 77.83.36.9 port 43497 ssh2
+Nov  2 03:13:17 server sshd[1214]: Failed password for invalid user admin from 45.95.147.12 port 64846 ssh2
+Nov  2 03:14:16 server sshd[1227]: Failed password for invalid user admin from 45.95.147.12 port 50587 ssh2
+Nov  2 03:15:20 server sshd[1237]: Failed password for invalid user admin from 185.220.101.4 port 59699 ssh2
+Nov  2 03:17:15 server systemd-logind[612]: New session 14 of user renzo.
+Nov  2 03:19:03 server sshd[1252]: Failed password for root from 185.220.101.4 port 52510 ssh2
+Nov  2 03:20:05 server sshd[1257]: Failed password for invalid user user from 45.95.147.12 port 34797 ssh2
+Nov  2 03:22:37 server sshd[1269]: Connection closed by 185.220.101.4 port 52200 [preauth]
+Nov  2 03:23:35 server sshd[1270]: Failed password for invalid user ubuntu from 103.152.118.20 port 35086 ssh2
+Nov  2 03:27:13 server sshd[1290]: Connection closed by 185.220.101.4 port 52200 [preauth]
+Nov  2 03:30:04 server sshd[1308]: Connection closed by 185.220.101.4 port 52200 [preauth]
+Nov  2 03:31:34 server sshd[1310]: Accepted password for renzo from 192.168.0.15 port 33976 ssh2
+Nov  2 03:32:18 server sshd[1321]: Failed password for root from 185.220.101.4 port 59205 ssh2
+Nov  2 03:32:59 server sshd[1333]: Failed password for root from 185.220.101.4 port 55283 ssh2
+Nov  2 03:34:29 server sshd[1339]: Failed password for invalid user admin from 45.95.147.12 port 31478 ssh2
+Nov  2 03:35:33 server sshd[1345]: Failed password for invalid user admin from 45.95.147.12 port 41013 ssh2
+Nov  2 03:36:56 server sshd[1347]: Failed password for invalid user test from 185.220.101.4 port 62354 ssh2
+Nov  2 03:37:08 server sshd[1351]: Failed password for invalid user ubuntu from 103.152.118.20 port 48837 ssh2
+Nov  2 03:37:29 server sshd[1363]: Failed password for invalid user guest from 77.83.36.9 port 46227 ssh2
+Nov  2 05:41:02 server sshd[1999]: Failed password for root from
+Nov  2 03:40:13 server sshd[1378]: Connection closed by 185.220.101.4 port 52200 [preauth]
+Nov  2 03:41:28 server sshd[1383]: Failed password for renzo from 192.168.0.15 port 38973 ssh2
+Nov  2 03:42:28 server sshd[1397]: Failed password for invalid user guest from 77.83.36.9 port 48246 ssh2
+Nov  2 03:43:26 server sshd[1403]: Failed password for invalid user oracle from 45.95.147.12 port 54932 ssh2
+Nov  2 03:44:00 server sshd[1406]: Failed password for root from 185.220.101.4 port 35438 ssh2
+Nov  2 03:44:27 server sshd[1409]: Failed password for renzo from 201.17.88.33 port 45201 ssh2
+Nov  2 03:45:56 server sshd[1413]: Failed password for invalid user admin from 45.95.147.12 port 30790 ssh2
+Nov  2 03:47:03 server sshd[1427]: Failed password for renzo from 192.168.0.15 port 41950 ssh2
+Nov  2 03:47:41 server sshd[1432]: Failed password for root from 185.220.101.4 port 30268 ssh2
+Nov  2 03:48:04 server sshd[1439]: Accepted password for renzo from 201.17.88.33 port 54199 ssh2
+Nov  2 03:49:27 server CRON[1449]: pam_unix(cron:session): session opened for user root by (uid=0)
+Nov  2 03:52:46 server sshd[1474]: Failed password for invalid user ubuntu from 103.152.118.20 port 55714 ssh2
+Nov  2 03:53:41 server sshd[1481]: Failed password for root from 185.220.101.4 port 55829 ssh2
+Nov  2 03:53:59 server sshd[1489]: Failed password for root from 185.220.101.4 port 56243 ssh2
+Nov  2 03:54:11 server sshd[1493]: Failed password for root from 185.220.101.4 port 34413 ssh2
+Nov  2 03:54:42 server sshd[1501]: Accepted password for renzo from 192.168.0.15 port 40636 ssh2
+Nov  2 03:56:22 server sudo:    renzo : TTY=pts/0 ; PWD=/home/renzo ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  2 03:58:04 server sshd[1510]: Failed password for invalid user ubuntu from 103.152.118.20 port 53829 ssh2
+Nov  2 03:59:27 server sshd[1511]: Failed password for root from 185.220.101.4 port 34608 ssh2
+Nov  2 03:59:58 server sshd[1521]: Failed password for invalid user guest from 77.83.36.9 port 54656 ssh2
+Nov  2 04:00:22 server sshd[1532]: Failed password for root from 185.220.101.4 port 46531 ssh2
+Nov  2 04:01:11 server sshd[1542]: Failed password for root from 185.220.101.4 port 53865 ssh2
+Nov  2 04:04:46 server sshd[1552]: Connection closed by 185.220.101.4 port 52200 [preauth]
+Nov  2 04:05:30 server sshd[1554]: Failed password for invalid user postgres from 103.152.118.20 port 39444 ssh2
+Nov  2 04:05:48 server sshd[1566]: Failed password for root from 185.220.101.4 port 52454 ssh2
+Nov  2 04:06:26 server sshd[1574]: Failed password for invalid user pi from 45.95.147.12 port 40580 ssh2
