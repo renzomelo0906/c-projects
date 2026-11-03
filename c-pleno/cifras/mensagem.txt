@@ -1,0 +1,10 @@
+Relatorio de incidente - servidor web
+
+Durante a madrugada foram registradas centenas de tentativas de login
+via SSH vindas de poucos enderecos IP. Nenhuma tentativa teve sucesso,
+mas o volume indica um ataque automatizado de forca bruta.
+
+Acoes recomendadas:
+1. Desativar o login por senha e usar apenas chaves SSH.
+2. Bloquear os IPs suspeitos no firewall.
+3. Instalar o fail2ban para bloquear novos ataques automaticamente.
