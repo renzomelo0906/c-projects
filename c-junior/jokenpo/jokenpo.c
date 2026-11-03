@@ -55,7 +55,7 @@ int main(){
         else if(jdp == 2 && jdc == 3){
             printf("Scissors beats paper, so you LOSE!\n");
         }
-         printf("\n--------------------------------");
+         printf("\n--------------------------------\n");
        
     
 
@@ -63,10 +63,3 @@ int main(){
      }
  return 0;
 }
-
-
-/* 1 > 3
-   2 > 1
-   3 > 2
-
-*/
